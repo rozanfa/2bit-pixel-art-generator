@@ -204,16 +204,3 @@ if __name__ == "__main__":
     plt.show()
     if args.save:
         plt.imsave(args.save, pixelart_img)
-    
-    # image = plt.imread("7.png")
-    # pixel_size = 16
-    # color_palette = np.array([
-    #     [33, 18, 16],
-    #     [94, 45, 32],
-    #     [199, 107, 42],
-    #     [240, 194, 96]
-    # ])
-    # pixelart_img = twobit_pixel_art(image, pixel_size, color_palette)
-    # plt.imshow(pixelart_img)
-    # plt.show()
-    # plt.imsave("6-pixel.png", pixelart_img)
